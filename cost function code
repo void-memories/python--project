@@ -1,4 +1,5 @@
-import csv
+#import	
+	import csv
 	import math
 	import numpy as np
 	import matplotlib.pyplot as plt
@@ -7,7 +8,7 @@ import csv
 	from matplotlib.animation import FuncAnimation
 	from matplotlib import cm
 	
-
+#cost function
 	
 
 	def compute_cost(X, y, theta):
@@ -17,7 +18,7 @@ import csv
 	    return J[0, 0]
 	
 
-	
+#gradient descent
 
 	def gradient_descent(X, y, theta, alpha, epsilon, flag):
 	    J_hist = []
